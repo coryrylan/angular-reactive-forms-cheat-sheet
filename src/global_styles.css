@@ -22,11 +22,11 @@ html {
 
 header {
   border-bottom: 1px solid var(--border-color);
+}
 
-  a {
-    display: inline-block;
-    margin-right: 12px;
-  }
+header a {
+  display: inline-block;
+  margin-right: 12px;
 }
 
 .container {
@@ -40,11 +40,11 @@ nav {
   width: 25%;
   height: 100vh;
   border-right: 1px solid var(--border-color);
+}
 
-  a {
-    padding: 12px;
-    display: block;
-  }
+nav a {
+  padding: 12px;
+  display: block;
 }
 
 main {
@@ -95,10 +95,8 @@ input[type="checkbox"] + label, input[type="radio"] + label {
   margin-bottom: 24px;
 }
 
-.checkbox-list {
-  input[type="checkbox"] {
-    margin-bottom: 8px;
-  }
+.checkbox-list input[type="checkbox"] {
+  margin-bottom: 8px;
 }
 
 input[type="radio"] {
