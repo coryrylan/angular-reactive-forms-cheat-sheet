@@ -4,8 +4,10 @@ body {
   font-size: 16px;
   line-height: 1.5rem;
   color: #2d2d2d;
-  padding: 0;
   margin: 0;
+  padding: 24px 12px 12px 12px;
+  max-width: var(--container-width);
+  margin: 0 auto;
   --container-width: 1024px;
   --border-color: #ccc;
   --success-color: green;
@@ -27,12 +29,6 @@ header {
 header a {
   display: inline-block;
   margin-right: 12px;
-}
-
-.container {
-  padding: 24px 12px 12px 12px;
-  max-width: var(--container-width);
-  margin: 0 auto;
 }
 
 nav {
